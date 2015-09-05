@@ -21,6 +21,6 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
 ## Basic Auth Example
 
   1. Ensure steps 1 and 2 under `to start your phoenix app` has been done
-  2. Then run the `insert_user.sql` script to seed the database with a user `username: user, password: password`
+  2. Then run the `insert_user.sql` script to seed the database with a user `username: admin, password: password`
   3. run phoenix as detailed above
   4. then in the browser hit localhost:4000/api/bars should ask for username passowrd. admin password should let you see the request, base combo will produce a 401
